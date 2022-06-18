@@ -1,0 +1,22 @@
+{
+  "name": "quickstart-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/parcel index.html",
+    "watch": "./node_modules/.bin/parcel watch index.html",
+    "build": "./node_modules/.bin/parcel build index.html --no-source-maps --experimental-scope-hoisting --out-dir build"
+  },
+  "keywords": [],
+  "author": "Alouspike",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/preset-env": "^7.18.2",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.52.3"
+  }
+}
